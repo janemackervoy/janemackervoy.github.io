@@ -1,0 +1,171 @@
+/*downloaded poly font
+@font-face {
+  font-family: "poly-reg";
+  src: url("poly-reg.otf");
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);*/
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+/******rules for all pages******/
+body {
+  font-family: "Poiret One", serif;
+  /*background-color: #6E6D70;*/
+  padding-top:20px;
+}
+/*applies to all container divs on any page*/
+#container{
+  background-color: #FFFFFF;
+  padding: 50px;
+  padding-top, padding-bottom: 75px;
+  border-radius: 50px;
+  min-width: 600px; /*ensure the width of the container isn't smaller than 450px*/
+  max-width: 960px; /*ensure the width of the container isn't greater than 960px*/
+  margin: auto;
+}
+#blog {
+  height: 1000px;
+  width: 100%;
+  margin-top:20px;
+  border-radius: 30px;
+}
+.block {
+  /*border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #FFCCCC;
+  padding: 6px;
+  margin: 6px;*/
+  color: #473869;
+  letter-spacing: 1.5px;
+}
+/*applies to all major headings on the webpage*/
+h1, h2 {
+  width: 960px;
+  text-align: center; /*align the text in the centre of its box*/
+  clear: both;
+}
+/*applying to homepage header only*/
+.awesome-header {
+  font-family: "Poiret One";
+  font-size: 500%;
+  color: #473869;
+}
+.left-column {
+  float: left;
+}
+.contact-block{
+  width: 200px;
+  float: left;
+  margin-left: 100px;
+}
+.right-column {
+  float: right;
+}
+/****************************************/
+/*For use in the Gallery section only*/
+/*#exhibit-tray {
+  width: 960px;
+  height: 500px;
+  border: 2px solid #000000;
+}*/
+
+#exhibit-desc {
+  width: 960px;
+  margin-top: 20px;
+  text-align: center;
+  top: 500px;
+  left: 180px;
+}
+#portrait {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  height: 15%;
+  width: 15%;
+  float: left;
+}
+
+#aboutme {
+  margin-left:100px;
+  margin-top: 50px;
+}
+#aboutme > p {
+  padding-left: 100px;
+}
+.quote {
+  margin-left: 5%;
+  margin-right: 5%;
+  width:70%;
+  text-align: center;
+  font-style: italic;
+}
+.by {
+  font-weight: bold;
+}
+.clicky {
+  width: 28px;
+  margin: 1px;
+  position: relative;
+  top: 126px;
+  float: left;
+}
+.exhibit {
+  /*height: 280px;*/
+  margin: 10px;
+  float: left;
+  /*width: 300px;*/
+  border-radius: 15px;
+  cursor: pointer;
+  cursor: hand;
+}
+.exhibit > img {
+  border-radius: 30px;
+}
+.exhibit > p {
+  display: none;
+}
+.exhibit > img:hover, .clicky:hover {
+  cursor: pointer;
+}
+.firstletter {
+  color: #8773B3;
+}
+
+/******rules for constructing the navigation bar******/
+/*position the navigation bar at the top of the page*/
+#navbar {
+  text-align: center; /*position the elements in the centre*/
+  background-image: url('headerbg3.png');
+  border-radius: 50px;
+  height:389px;
+}
+/*ensure that there are no bulletpoints in the list*/
+#navbar ul {
+  list-style: none;
+  padding-top: 50px;
+}
+/*ruling for all list elements*/
+#navbar ul li {
+  display: inline; /*display the elements on one line*/
+  margin-right: 40px; /*ensure the elements are clearly separate*/
+  padding: 5px;
+  border-radius: 3px;
+}
+
+/*ruling for links in the navigation bar*/
+#navbar a {
+  text-decoration: none;
+  color: #523e7c;
+}
+/*change the colour of the navbar options when hovered over*/
+#navbar ul li a:hover{
+  color: #8773B3;
+}
+
+div.large-img
+{
+  display: none;
+}
