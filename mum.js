@@ -3,19 +3,23 @@ function painting(src, desc){
   this.desc = desc;
 }
 
-var gallery = [new painting("photo 1small.jpg","Description 1"),
+var gallery = [new painting("photo 1small.jpg","Pink Peony, oil on canvas, 100 x 100 cm"),
           new painting("photo 2small.jpg","Description 2"),
           new painting("photo 3small.jpg","Description 3"),
           new painting("photo 4small.jpg","Description 4"),
           new painting("photo 5small.jpg","Description 5"),
-          new painting("photo 6small.jpg","Description 6")
+          new painting("photo 6small.jpg","Description 6"),
+          new painting("photo 7small.jpg","Still Life with Lillies, oil on canvas, 50.8 x 76 cm"),
+          new painting("photo 8small.jpg","Thistle, oil on canvas 45.5 x 55.5 cm")
         ];
-var large = [new painting("photo 1.jpg","Description 1"),
+var large = [new painting("photo 1.jpg","Pink Peony, oil on canvas, 100 x 100 cm"),
           new painting("photo 2.jpg","Description 2"),
           new painting("photo 3.jpg","Description 3"),
           new painting("photo 4.jpg","Description 4"),
           new painting("photo 5.jpg","Description 5"),
-          new painting("photo 6.jpg","Description 6")
+          new painting("photo 6.jpg","Description 6"),
+          new painting("photo 7.jpg","Still Life with Lillies, oil on canvas, 50.8 x 76 cm"),
+          new painting("photo 8.jpg","Thistle, oil on canvas 45.5 x 55.5 cm")
 ];
 var slot1 = 0;
 var slot2 = 1;
