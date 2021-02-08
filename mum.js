@@ -10,7 +10,34 @@ var gallery = [new painting("photo 1small.jpg","Pink Peony, oil on canvas, 100 x
           new painting("photo 5small.jpg","Description 5"),
           new painting("photo 6small.jpg","Description 6"),
           new painting("photo 7small.jpg","Still Life with Lillies, oil on canvas, 50.8 x 76 cm"),
-          new painting("photo 8small.jpg","Thistle, oil on canvas 45.5 x 55.5 cm")
+          new painting("photo 8small.jpg","Thistle, oil on canvas 45.5 x 55.5 cm"),
+          new painting("2021/main/1.jpeg",""),
+          new painting("2021/main/2.jpeg",""),
+          new painting("2021/main/3.jpeg",""),
+          new painting("2021/main/4.jpeg",""),
+          new painting("2021/main/5.jpeg",""),
+          new painting("2021/main/6.jpeg",""),
+          new painting("2021/main/6_1.jpeg",""),
+          new painting("2021/main/7.jpeg",""),
+          new painting("2021/main/8.jpeg",""),
+          new painting("2021/main/9.jpeg",""),
+          new painting("2021/main/10.jpeg",""),
+          new painting("2021/main/11.jpeg",""),
+          new painting("2021/main/12.jpeg",""),
+          new painting("2021/main/13.jpeg",""),
+          new painting("2021/main/14.jpeg",""),
+          new painting("2021/main/15.jpeg",""),
+          new painting("2021/main/16.jpeg",""),
+          new painting("2021/main/17.jpeg",""),
+          new painting("2021/main/18.jpeg",""),
+          new painting("2021/main/19.jpeg",""),
+          new painting("2021/main/20.jpeg",""),
+          new painting("2021/main/21.jpeg",""),
+          new painting("2021/main/22.jpeg",""),
+          new painting("2021/main/23.jpeg",""),
+          new painting("2021/main/24.jpeg",""),
+          new painting("2021/main/25.jpeg",""),
+          new painting("2021/main/26.jpeg",""),
         ];
 var large = [new painting("photo 1.jpg","Pink Peony, oil on canvas, 100 x 100 cm"),
           new painting("photo 2.jpg","Description 2"),
@@ -19,7 +46,33 @@ var large = [new painting("photo 1.jpg","Pink Peony, oil on canvas, 100 x 100 cm
           new painting("photo 5.jpg","Description 5"),
           new painting("photo 6.jpg","Description 6"),
           new painting("photo 7.jpg","Still Life with Lillies, oil on canvas, 50.8 x 76 cm"),
-          new painting("photo 8.jpg","Thistle, oil on canvas 45.5 x 55.5 cm")
+          new painting("2021/main/1.jpeg",""),
+          new painting("2021/main/2.jpeg",""),
+          new painting("2021/main/3.jpeg",""),
+          new painting("2021/main/4.jpeg",""),
+          new painting("2021/main/5.jpeg",""),
+          new painting("2021/main/6.jpeg",""),
+          new painting("2021/main/6_1.jpeg",""),
+          new painting("2021/main/7.jpeg",""),
+          new painting("2021/main/8.jpeg",""),
+          new painting("2021/main/9.jpeg",""),
+          new painting("2021/main/10.jpeg",""),
+          new painting("2021/main/11.jpeg",""),
+          new painting("2021/main/12.jpeg",""),
+          new painting("2021/main/13.jpeg",""),
+          new painting("2021/main/14.jpeg",""),
+          new painting("2021/main/15.jpeg",""),
+          new painting("2021/main/16.jpeg",""),
+          new painting("2021/main/17.jpeg",""),
+          new painting("2021/main/18.jpeg",""),
+          new painting("2021/main/19.jpeg",""),
+          new painting("2021/main/20.jpeg",""),
+          new painting("2021/main/21.jpeg",""),
+          new painting("2021/main/22.jpeg",""),
+          new painting("2021/main/23.jpeg",""),
+          new painting("2021/main/24.jpeg",""),
+          new painting("2021/main/25.jpeg",""),
+          new painting("2021/main/26.jpeg",""),
 ];
 var slot1 = 0;
 var slot2 = 1;
@@ -44,7 +97,7 @@ function displayExhibit(exno) {
 
 function fullDisplay(exno) {
   //figure the photo div to be selected
-  var string = '#photo';
+  //var string = '#photo';
   //var imgno;
   /*switch(exno) {
     case 1: imgno = slot1 + 1;
@@ -58,7 +111,7 @@ function fullDisplay(exno) {
             break;
     default: return; //don't display dialogue on invalid exnos
   }*/
-  string = string + exno;
+  /*string = string + exno;
   opt = {
       autoOpen: false,
       width: 'auto',
@@ -91,7 +144,7 @@ function fullDisplay(exno) {
         'filter': 'opacity(1)'
       });
     }
-  });
+  });*/
 }
 
 //when the window resizes, resize the dialog box also

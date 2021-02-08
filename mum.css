@@ -120,15 +120,10 @@ h1, h2 {
   border-radius: 15px;
   cursor: pointer;
   cursor: hand;
-}
-.exhibit > img {
-  border-radius: 30px;
-}
-.exhibit > p {
-  display: none;
-}
-.exhibit > img:hover, .clicky:hover {
-  cursor: pointer;
+  width: 300px;
+  height:300px;
+  max-width: 300px;
+  max-height: 300px;
 }
 .firstletter {
   color: #8773B3;
