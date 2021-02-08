@@ -1,11 +1,3 @@
-/*downloaded poly font
-@font-face {
-  font-family: "poly-reg";
-  src: url("poly-reg.otf");
-  font-weight: normal;
-  font-style: normal;
-}*/
-
 /*@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);*/
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
@@ -19,7 +11,8 @@ body {
 #container{
   background-color: #FFFFFF;
   padding: 50px;
-  padding-top, padding-bottom: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px;
   border-radius: 50px;
   min-width: 600px; /*ensure the width of the container isn't smaller than 450px*/
   max-width: 960px; /*ensure the width of the container isn't greater than 960px*/
@@ -32,17 +25,12 @@ body {
   border-radius: 30px;
 }
 .block {
-  /*border: 2px solid #000000;
-  border-radius: 10px;
-  background-color: #FFCCCC;
-  padding: 6px;
-  margin: 6px;*/
   color: #473869;
   letter-spacing: 1.5px;
 }
 /*applies to all major headings on the webpage*/
 h1, h2 {
-  width: 960px;
+  width: 100%;
   text-align: center; /*align the text in the centre of its box*/
   clear: both;
 }
@@ -71,11 +59,6 @@ h1, h2 {
 }
 /****************************************/
 /*For use in the Gallery section only*/
-/*#exhibit-tray {
-  width: 960px;
-  height: 500px;
-  border: 2px solid #000000;
-}*/
 
 #exhibit-desc {
   width: 960px;
@@ -110,13 +93,6 @@ h1, h2 {
 }
 .by {
   font-weight: bold;
-}
-.clicky {
-  width: 28px;
-  margin: 1px;
-  position: relative;
-  top: 126px;
-  float: left;
 }
 .exhibit {
   /*height: 280px;*/
